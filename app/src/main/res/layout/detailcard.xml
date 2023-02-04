@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_160sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E7EBEE">
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:src="@drawable/ic_baseline_device_thermostat_24"/>
+        <TextView
+            android:layout_below="@+id/img_icon"
+            android:id="@+id/tv_feelslike"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/feels_like"/>
+        <TextView
+            android:layout_below="@+id/tv_feelslike"
+            android:id="@+id/tv_tempretures"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_24sdp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="16°"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

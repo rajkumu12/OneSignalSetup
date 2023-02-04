@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Anything">
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="@dimen/_26sdp"
+        android:textColorHint="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginHorizontal="@dimen/_26sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/login"/>
+
+</RelativeLayout>

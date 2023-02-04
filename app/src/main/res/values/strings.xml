@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="dlf_phase_3">DLF Phase 3</string>
+    <string name="image">image</string>
+    <string name="dummy">Dummy</string>
+    <string name="partial_cloudy">Partly clo..</string>
+    <string name="_15_c">15°C</string>
+    <string name="_15_day_weather_forecast">15-day weather forecast</string>
+    <string name="weather_detail">Weather Detail</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="_7_10">7:10</string>
+    <string name="_17_10">17:10</string>
+    <string name="_1017hpa">1017hpa</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="_1km">1km</string>
+    <string name="visibility">Visibility</string>
+    <string name="_0_very_weak">0 Very weak</string>
+    <string name="uv">UV</string>
+    <string name="_62">62%</string>
+    <string name="humidity">Humidity</string>
+    <string name="_14_mk_h">14 mk/h</string>
+    <string name="w_wind">W wind</string>
+    <string name="_16">16°</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+</resources>

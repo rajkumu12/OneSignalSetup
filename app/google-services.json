@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202391285559",
+    "project_id": "onesignal-1e821",
+    "storage_bucket": "onesignal-1e821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202391285559:android:f672025243df26bae474b2",
+        "android_client_info": {
+          "package_name": "com.decode.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202391285559-0se6qppo356gaq7g2055qslnvav4ss02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc4Gv06T1Fxn0eZDy4vwCfp5FvK3Wgsrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202391285559-0se6qppo356gaq7g2055qslnvav4ss02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
